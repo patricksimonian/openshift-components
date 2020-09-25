@@ -1,4 +1,4 @@
-FROM registry.redhat.io/openshift3/jenkins-2-rhel7:latest
+FROM registry.redhat.io/ubi8/ubi-minimal:latest
 
 # https://blog.csanchez.org/2017/05/31/running-a-jvm-in-a-container-without-getting-killed/
 ENV JENKINS_VERSION=2.235.5 \
